@@ -6,15 +6,21 @@ import (
 	"strings"
 )
 
-// Sum returns the total of all integers.
+
 func Sum(nums ...int) int {
-	// TODO: implement
-	return 0
+	
+	total := 0
+	for _, num := range nums{
+		total += num
+	}
+	return total
 }
 
 // Reverse returns a reversed copy of s.
 func Reverse(s string) string {
 	// TODO: handle Unicode correctly using runes
+	// 
+	// 
 	return s
 }
 
